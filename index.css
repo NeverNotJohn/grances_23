@@ -1,3 +1,75 @@
+@font-face {
+    font-family: gamer;
+    src: url('static/fonts/PressStart2P-Regular.ttf');
+}
+
+body {
+    background-image: url('static/images/background.png');
+    height: 1000vh;
+    color: white;
+    font-family: gamer;
+}
+
+
 .mainText {
-    font-size: xx-large;
+    margin-top: 90px;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 45px;
+    background-color: rgb(25, 25, 25);
+}
+
+.bgg {
+    background-color: rgb(32, 32, 32);
+}
+
+.bg {
+    background-color: rgb(25, 25, 25);
+}
+
+.purple {
+    color: rgb(214, 0, 255);
+}
+
+#scroll {
+    margin-top: 250px;
+}
+
+#space {
+    padding-top: 100px;
+}
+
+#gurl {
+    font-size: 10px;
+    padding-left: 10px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#t {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.shh {
+    font-size: 10px;
+}
+
+.but {
+   margin-top: 500px; 
+}
+
+button {
+    background-color: rgb(32, 32, 32);
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+button img {
+    width: 100px;
+    height: auto;
 }
