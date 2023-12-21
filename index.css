@@ -89,7 +89,9 @@ button img {
 .page {
     width: 100%;
     height: 100vh;
-    padding-top: 80px;
+    padding-top: 90px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #page1 {
@@ -107,11 +109,15 @@ button img {
 
 .containerr {
     display: flex;
-    padding: 20px;
+    padding-bottom: 15px;
   }
 
 .image-container img {
 max-width: 100%;
 height: auto;
 /* Additional styling for the image if needed */
+}
+
+p {
+    font-size: 15px;
 }
