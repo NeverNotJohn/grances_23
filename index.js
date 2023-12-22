@@ -11,6 +11,8 @@ function one() {
     // Delete Self
     var but = document.getElementById('but1');
     but.remove();
+    var scroll = document.getElementById('scroll');
+    scroll.remove();
 
     // Add new page
     var page2 = document.getElementById('page2');
