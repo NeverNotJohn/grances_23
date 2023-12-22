@@ -11,4 +11,8 @@ function one() {
     // Delete Self
     var but = document.getElementById('but1');
     but.remove();
+
+    // Add new page
+    var page2 = document.getElementById('page2');
+    page2.classList.add('visible');
 }
