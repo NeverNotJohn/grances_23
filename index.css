@@ -141,3 +141,12 @@ p {
     transition: transform 0.5s ease-in-out;
     transform: translateX(100%);
 }
+
+.thirds {
+    max-height: 33%;
+}
+
+.smallish {
+    height: 300px;
+    width: auto;
+}
