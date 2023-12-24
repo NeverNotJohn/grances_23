@@ -50,16 +50,26 @@ $(document).ready(function() {
             console.log('p3');
             p3.classList.remove('slide');
             p3.classList.add('visible');
+
+            h1 = document.getElementById('h1');
+            h1.src = 'static/images/heart.png';
+
         } 
         if (scrollPos > p4l) {
             console.log('p4');
             p4.classList.remove('slide');
             p4.classList.add('visible');
+
+            h2 = document.getElementById('h2');
+            h2.src = 'static/images/heart.png';
         } 
         if (scrollPos > p5l) {
             console.log('p5');
             p5.classList.remove('slide');
             p5.classList.add('visible');
+
+            h3 = document.getElementById('h3');
+            h3.src = 'static/images/heart.png';
         } 
 
         console.log(scrollPos);
