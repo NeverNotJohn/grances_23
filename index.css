@@ -6,7 +6,7 @@
 
 body {
     background-image: url('static/images/background.png');
-    height: 200vh;
+    height: 600vh;
     color: white;
     font-family: gamer;
 }
@@ -82,6 +82,7 @@ button img {
 }
 
 .visible {
+    transition: opacity 1s ease-in-out;
     display: block;
     opacity: 1;
 }
@@ -173,5 +174,6 @@ p {
 }
 
 .slide {
-    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }

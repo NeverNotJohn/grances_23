@@ -1,6 +1,4 @@
 function one() {
-    document.body.style.height = '300vh';
-
     var nav = document.getElementById('nav');
     nav.classList.add('visible');
 
@@ -31,3 +29,41 @@ function final() {
     end.classList.add('visible');
     document.body.style.height = '100vh';
 }
+
+// Scroll
+
+$(document).ready(function() {
+
+    $(window).scroll(function() {
+
+        var scrollPos = $(window).scrollTop();
+        p3 = document.getElementById('page3');
+        p4 = document.getElementById('page4');
+        p5 = document.getElementById('page5');
+
+        p3l = $('#page3').offset().top - 150;
+        p4l = $('#page4').offset().top - 150;
+        p5l = $('#page5').offset().top - 150;
+
+
+        if (scrollPos > p3l) {
+            console.log('p3');
+            p3.classList.remove('slide');
+            p3.classList.add('visible');
+        } 
+        if (scrollPos > p4l) {
+            console.log('p4');
+            p4.classList.remove('slide');
+            p4.classList.add('visible');
+        } 
+        if (scrollPos > p5l) {
+            console.log('p5');
+            p5.classList.remove('slide');
+            p5.classList.add('visible');
+        } 
+
+        console.log(scrollPos);
+
+    });
+
+});
