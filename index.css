@@ -39,7 +39,7 @@ h1 {
 }
 
 #space {
-    padding-top: 180px;
+    padding-top: 20%;
 }
 
 #gurl {
@@ -149,4 +149,29 @@ p {
 .smallish {
     height: 300px;
     width: auto;
+}
+
+.horizontal-center {
+    margin-left: 50px;
+}
+
+.small_text {
+    font-size: 10px;
+}
+
+.ah {
+    margin-top: auto;
+}
+
+.yaga {
+    margin-top: 30%;
+}
+
+.invisible {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide {
+    display: none;
 }

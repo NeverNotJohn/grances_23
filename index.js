@@ -18,3 +18,16 @@ function one() {
     var page2 = document.getElementById('page2');
     page2.classList.add('visible');
 }
+
+function final() {
+    // Delete Main
+    var main = document.getElementById('main');
+    main.remove();
+
+
+    // Make final visible
+    var end = document.getElementById('end');
+    end.classList.remove('invisible');
+    end.classList.add('visible');
+    document.body.style.height = '100vh';
+}
